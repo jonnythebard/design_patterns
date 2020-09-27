@@ -1,5 +1,5 @@
 from enum import Enum
-from lexer import Token
+from interpreter.lexer import Token
 
 
 class Integer:

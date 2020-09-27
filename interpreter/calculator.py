@@ -1,5 +1,5 @@
-from lexer import lex
-from parser import parse
+from interpreter.lexer import lex
+from interpreter.parser import parse
 
 
 def eval(input):
