@@ -59,4 +59,4 @@ def parse(tokens):
                 result.right = element
             i = j  # advance
         i += 1
-    return result
+    return Integer(int(result.value))

@@ -37,8 +37,7 @@ def lex(input):
                     digits.append(input[j])
                     i += 1
                 else:
-                    result.append(Token(Token.Type.INTEGER,
-                                        ''.join(digits)))
+                    result.append(Token(Token.Type.INTEGER, ''.join(digits)))
                     break
         i += 1
 
