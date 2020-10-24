@@ -1,5 +1,5 @@
 from enum import Enum
-from interpreter.lexer import Token
+from design_patterns.interpreter.lexer import Token
 
 
 class Integer:

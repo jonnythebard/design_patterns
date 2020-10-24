@@ -1,5 +1,5 @@
-from interpreter.lexer import lex
-from interpreter.parser import parse
+from design_patterns.interpreter.lexer import lex
+from design_patterns.interpreter.parser import parse
 
 
 def eval(input):
